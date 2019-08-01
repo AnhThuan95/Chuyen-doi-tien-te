@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doi Tien</title>
+</head>
+<script src="convert.js"></script>
+<body>
+
+Amount:
+<input type="text" id="a"><br><br>
+
+From Currency:
+<select id="from">
+    <option value="VND">VND</option>
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+</select>
+<br>
+
+To Currency:
+<select id="to">
+    <option value="VND">VND</option>
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+</select>
+<br><br>
+
+<button onclick="convert()">Convert!</button>
+<br><br>
+
+Result:
+<p id="result"></p>
+
+</body>
+</html>
